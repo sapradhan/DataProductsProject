@@ -1,0 +1,47 @@
+Moon Phases App
+========================================================
+author: Santosh Pradhan
+date: May 22, 2016
+autosize: true
+
+Everybody knows the Moon
+========================================================
+
+Its the shiny white round thing that lights up the night sky 
+
+***
+![Full moon](FullMoon2010.jpg)
+
+It looks like this 
+
+
+But it looks different everyday
+========================================================
+
+![phases](Moon_phases_en.jpg)
+
+How will it look today ?
+========================================================
+
+### This app will tell you ->
+## [Moon Phases App](https://sapradhan.shinyapps.io/moon_phases/)
+
+It uses the `lunar` package in R 
+
+```{r}
+library(lunar)
+lunar.phase(as.Date("2016-05-22"), name=8)
+
+```
+
+Try it out 
+=======================================================
+
+
+# [Moon Phases App](https://sapradhan.shinyapps.io/moon_phases/)
+
+
+### Image credits 
+
+- Slide 2 Fullmoon By By Gregory H. Revera - <span class="int-own-work" lang="en">Own work</span>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, https://commons.wikimedia.org/w/index.php?curid=11901243
+- Slide 3 Moon Phases By <a href="//commons.wikimedia.org/wiki/User:Orion_8" title="User:Orion 8">Orion 8</a> - <span class="int-own-work" xml:lang="en" lang="en">Own work</span>, <a title="Creative Commons Attribution-Share Alike 3.0" href="http://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, https://commons.wikimedia.org/w/index.php?curid=11219265
